@@ -37,7 +37,6 @@ makeCacheMatrix <- function(mtx = matrix()) {
 ## get the matrix from makeCacheMatrix
 ## if the matrix is the same, then retrieve the inverse from the cache
 ## if not, calculate
-
 cacheSolve <- function(x, ...) {
   
   inversedMatrix <- x$getInversedMatrix()
